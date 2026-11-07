@@ -24,7 +24,7 @@ MAX_FILE_SIZE_BYTES=MAX_FILE_SIZE_MB*1024*1024
 
 # supported name type and their short names
 
-SUPPORTED_NAME_TYPES={
+SUPPORTED_MIME_TYPES={
     "application/pdf":"pdf",
     'application/msword': 'doc',
     'application/vnd.openxmlformats-officedocument.wordprocessingml.document': 'docx' 
