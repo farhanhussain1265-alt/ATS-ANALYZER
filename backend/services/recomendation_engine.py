@@ -60,7 +60,7 @@ def generate_skill_recommendations(skill_validation_results: Dict) -> List[Recom
     return recommendations
 
 #generator02: grammtical suggestions
-def generate_grammar_recommendations(grammar_results: Dict) -> List[Recommendation]:
+def generate_grammar_recommendations(grammar_results: Dict) -> List[Recommendation]: 
     recommendations = []
 
     critical_errors = grammar_results.get('critical_errors', [])
