@@ -2,6 +2,9 @@
 venv/
 .venv/
 
+# Model checkpoints
+bert/checkpoints/
+
 # Environment variables / secrets
 .env
 
@@ -11,3 +14,9 @@ __pycache__/
 
 # IDE
 .vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# BERT trained models
+bert/models/

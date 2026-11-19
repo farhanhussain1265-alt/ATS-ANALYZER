@@ -455,9 +455,15 @@ def generate_improvements(
 
 #Interpretation of overall score
 def _generate_score_interpretation(overall_score: float) -> str:
-    if overall_score >= 90:    return 'Excellent! Your resume is highly optimized for ATS systems.'
-    elif overall_score >= 80:  return 'Great! Your resume should perform well with most ATS systems.'
-    elif overall_score >= 70:  return 'Good! Your resume is ATS-friendly with room for minor improvements.'
-    elif overall_score >= 60:  return 'Fair. Your resume needs some improvements to be fully ATS-compatible.'
-    elif overall_score >= 50:  return 'Below Average. Significant improvements needed for ATS compatibility.'
-    else:                      return 'Poor. Your resume requires major revisions to pass ATS screening.'
+    if overall_score >= 90:
+        return 'Excellent! Your resume is highly optimized for ATS systems.'
+    elif overall_score >= 80: 
+        return 'Great! Your resume should perform well with most ATS systems.'
+    elif overall_score >= 70:
+        return 'Good! Your resume is ATS-friendly with room for minor improvements.'
+    elif overall_score >= 60:
+        return 'Fair. Your resume needs some improvements to be fully ATS-compatible.'
+    elif overall_score >= 50: 
+        return 'Below Average. Significant improvements needed for ATS compatibility.'
+    else:
+        return 'Poor. Your resume requires major revisions to pass ATS screening.'
