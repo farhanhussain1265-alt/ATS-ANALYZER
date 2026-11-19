@@ -29,3 +29,4 @@ def generate_combined_pdf(html_docs: dict[str, str]) -> bytes:
     # Write combined PDF bytes
     pdf_bytes = first_doc.write_pdf()
     return pdf_bytes
+
